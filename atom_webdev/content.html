@@ -6,9 +6,10 @@
   <head>
     <meta charset="utf-8">
     <title>content</title>
+    <link rel="stylesheet" type="text/css" href= "style.css" />
+    <!-- link above written like example found here: http://www.corelangs.com/css/basics/linking.html -->
   </head>
   <body>
-    <p>words</p>
     <!-- page content -->
     <!-- starting my table -->
     <table>
@@ -23,40 +24,44 @@
           <th> Cream Cheese </th>
       <tbody>
         <tr>
-          <td><em> Pineapple </em></td>
+          <th> Pineapple </th>
           <td> Yes (2) </td>
           <td> Yes (1) </td>
           <td> No </td>
           <td> No </td>
           <td> No </td>
         <tr>
-          <td><em> Black olives </em></td>
+          <th> Black olives </th>
           <td> No </td>
           <td> No </td>
           <td> Yes (2) </td>
           <td> No </td>
           <td> No </td>
         <tr>
-          <td><em> Onion </em></td>
-          <td> No </td>
+          <th> Onion </th>
+          <td> Yes (1) </td>
           <td> Yes (3) </td>
           <td> Yes (1) </td>
           <td> Yes (1) </td>
-          <td> No </td>
+          <td> Yes (1) </td>
         <tr>
-          <td><em> Spinach </em></td>
+          <th> Spinach </th>
           <td> Yes (1) </td>
           <td> No </td>
           <td> Yes (2) </td>
           <td> Yes (1) </td>
           <td> No </td>
         <tr>
-          <td><em> Jalapeno </em></td>
+          <th> Jalapeno </th>
           <td> Yes (2) </td>
           <td> Yes (1) </td>
           <td> Yes (1) </td>
           <td> Yes (1) </td>
           <td> Yes (1) </td>
+      <tfoot>
+        <tr>
+          <td colspan="2">Footer 1</td>
+          <td colspan="4">Footer 2</td>
     </table>
 
 
@@ -64,9 +69,80 @@
     <!-- starting my list -->
     <ol>
       <li>Pepperoni</li>
-      <li>Chicken</li>
-      <li>Sausage</li>
-
+      <li>Tomato</li>
+      <li>Chicken/Sausage</li>
     </ol>
+    <section>
+      <div id='outer-content'>
+        <div id='inner-content'>Some text</div>
+      </div>
+    </section>
+    <section id='getforms'>
+      <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get">
+        <fieldset>
+          <legend>GET Forms</legend>
+          <fieldset>
+            <label>Name:
+              <input type="text" name="text_input" size="30" maxlength="100">
+            </label>
+          </fieldset>
+          <fieldset>
+            <label>Number:
+              <input type="number" name="numerical_input" size="30" maxlength="100">
+            </label>
+          </fieldset>
+          <fieldset>
+            <label>Password:
+              <input type="password" name="password_input" size="30" maxlength="100">
+            </label>
+          </fieldset>
+          <fieldset>
+            <p>Select:</p>
+            <input type="radio" id="Snickers" name="radio" value="Snickers" >
+            <label>Snickers</label><br>
+            <input type="radio" id="Skittles" name="radio" value="Skittles" >
+            <label>Skittles</label><br>
+            <input type="radio" id="Mentos" name="radio" value="Mentos" >
+            <label>Mentos</label><br>
+            <input type="submit" value="Submit">
+          </fieldset>
+
+        </fieldset>
+      </form>
+    </section>
+    <section id='postforms'>
+      <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+        <fieldset>
+          <legend>POST Forms</legend>
+          <fieldset>
+            <label>Name:
+              <input type="text" name="text_input" size="30" maxlength="100">
+            </label>
+          </fieldset>
+          <fieldset>
+            <label>Number:
+              <input type="number" name="numerical_input" size="30" maxlength="100">
+            </label>
+          </fieldset>
+          <fieldset>
+            <label>Password:
+              <input type="password" name="password_input" size="30" maxlength="100">
+            </label>
+          </fieldset>
+          <fieldset>
+            <p>Select:</p>
+            <input type="radio" id="Snickers" name="radio" value="Snickers" >
+            <label>Snickers</label><br>
+            <input type="radio" id="Skittles" name="radio" value="Skittles" >
+            <label>Skittles</label><br>
+            <input type="radio" id="Mentos" name="radio" value="Mentos" >
+            <label>Mentos</label><br>
+            <input type="submit" value="Submit">
+          </fieldset>
+
+        </fieldset>
+      </form>
+    </section>
+
   </body>
 </html>

@@ -1,0 +1,41 @@
+/*CSS file for HW2 */
+
+table {
+  border-style: solid;
+}
+
+th{
+  border-style: solid;
+}
+td{
+  border-style: solid;
+}
+/*https://www.w3.org/Style/Examples/007/evenodd.en.html*/
+tbody>tr:nth-child(odd) {background: #FC9403}
+tbody>tr:nth-child(even) {background: #03D3FC}
+tbody th{
+  font-style: italic;
+  font-weight: normal;
+}
+#outer-content{
+  position: relative;
+  padding:10px 0;
+  top: 20px;
+  background-color: pink;
+  width:75%;
+}
+#inner-content{
+  position: relative;
+  margin:auto;
+  background-color: #03C6FC;
+  width:75%;
+  text-align: center;
+}
+#getforms{
+  position: relative;
+  top: 20px;
+}
+#postforms{
+  position: relative;
+  top: 20px;
+}
