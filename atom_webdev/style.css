@@ -11,8 +11,8 @@ td{
   border-style: solid;
 }
 /*https://www.w3.org/Style/Examples/007/evenodd.en.html*/
-tbody>tr:nth-child(odd) {background: #FC9403}
-tbody>tr:nth-child(even) {background: #03D3FC}
+tbody>tr:nth-of-type(odd) {background: #FC9403}
+tbody>tr:nth-of-type(even) {background: #03D3FC}
 tbody th{
   font-style: italic;
   font-weight: normal;
