@@ -17,14 +17,14 @@ tbody th{
   font-style: italic;
   font-weight: normal;
 }
-#outer-content{
+div.outer-content{
   position: relative;
   padding:10px 0;
   top: 20px;
   background-color: pink;
   width:75%;
 }
-#inner-content{
+div.inner-content{
   position: relative;
   margin:auto;
   background-color: #03C6FC;
