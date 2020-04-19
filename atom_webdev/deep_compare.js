@@ -3,10 +3,7 @@ function deepEqual(value1,value2)
   console.log(typeof value1);
   console.log(typeof value2); //for testing
 
-  if ((typeof value1 == "object" && value1 != null) &&
-      (typeof value2 == "object" && value2 != null){
-        value1 == value2;
-      }
+
 }
 console.log("Homework tests:");
 let obj = {here: {is: "an"}, object: 2};
