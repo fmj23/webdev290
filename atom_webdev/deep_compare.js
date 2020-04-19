@@ -7,9 +7,12 @@ function deepEqual(value1,value2)
         //console.log(value1 == value2);
         console.log(Object.keys(value1).includes("here"));
         console.log(Object.keys(value2));
+        console.log(value1.here);
         return (value1 == value2);
       }
-  console.log(value1.here);
+  else {
+    console.log(value1 === value2);
+  }
 
 
 }
