@@ -6,6 +6,7 @@ function deepEqual(value1,value2)
       (typeof value2 == "object" && value2 != null)){
         console.log(value1 == value2);
         console.log(Object.keys(value1));
+        console.log(Object.keys(value2));
         return (value1 == value2);
       }
 
