@@ -5,6 +5,7 @@ function deepEqual(value1,value2)
   if ((typeof value1 == "object" && value1 != null) &&
       (typeof value2 == "object" && value2 != null)){
         console.log(value1 == value2);
+        console.log(value1.keys());
         return (value1 == value2);
       }
 
