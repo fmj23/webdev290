@@ -7,6 +7,7 @@ function deepEqual(value1,value2)
       (typeof value2 == "object" && value2 != null){
         value1 == value2;
       }
+}
 console.log("Homework tests:");
 let obj = {here: {is: "an"}, object: 2};
 //console.log(deepEqual(obj,obj));
