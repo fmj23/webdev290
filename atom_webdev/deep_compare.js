@@ -9,7 +9,7 @@ function deepEqual(value1,value2)
         console.log(Object.keys(value2));
         return (value1 == value2);
       }
-  console.log(value1[0]);
+  console.log(value1.here);
 
 
 }
