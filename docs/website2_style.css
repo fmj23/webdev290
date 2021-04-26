@@ -66,3 +66,6 @@
 #linkedinTXTlink{
 	color: yellow;
 }
+#mainBody{
+	overflow-y:scroll;
+}
