@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html id="otherHTML">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Yeshua's Site</title>
+	<link rel="stylesheet" type="text/css" href= "website2_style.css" />
+</head>
+<body>
+	<img id="mountain" src="assets/title.jpg">
+	<div id="middlebox">
+		<p>Welcome</p>
+		<div class="menubar">
+		<div class="inner"><button type="button" id="projectsButton">Projects</button></div>
+		<div class="inner"><button type="button" id="galleryButton">Gallery</button></div>
+	</div>
+	</div>
+	
+	
+	<div id="linkedinTXT"><p>Created by <a id="linkedinTXTlink" href="https://www.linkedin.com/in/joshua-fiedler-571982137/" target="_blank">Josh Fiedler</a></p>
+	</div>
+	<script src="home.js"></script>
+</body>
+</html>
