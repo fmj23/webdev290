@@ -68,3 +68,8 @@
 }
 #mainBody{
 }
+#description>p{
+	font-size: 20px;
+	font-family: "Helvetica";
+	color: #FFFF7d;
+}
