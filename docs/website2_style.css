@@ -80,6 +80,6 @@
 	font-family: "Helvetica";
 	color: #FFFF7d;
 }
-#replbox{
+#replbox>iframe{
 	margin: auto;
 }
