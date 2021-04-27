@@ -67,6 +67,7 @@
 	color: yellow;
 }
 #mainBody{
+	margin: auto;
 }
 #description>p{
 	font-size: 20px;
