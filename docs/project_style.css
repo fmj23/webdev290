@@ -1,0 +1,84 @@
+:root {
+    --colorLight: #f1f1f1;
+    --colorMed: #21209c;
+    --colorDark: #23120b;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#otherHTML{
+	background-color: var(--colorDark);
+}
+#mountain{
+	position: fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	max-width: 100%;
+	z-index: -1;
+	margin: auto;
+	overflow: auto;
+}
+#homeBar{
+    position: fixed;
+    background-color: var(--colorDark);
+    height: 80px;
+    width: 100%;
+    clear: both;
+}
+#homeButtonSpot{
+    position: fixed;
+	left: 10px;
+	top: 10px;
+    background-color: var(--colorMed);
+}
+#homeButton{
+	background-color:rgba(100,100,100,0);
+	border-color: var(--colorMed);
+	color: var(--colorLight);
+	height:30px;
+	
+	width:60px;
+	font-size:1.0vw;
+
+}
+#linkedinTXT{
+	position: fixed;
+	color: #FFFF7d;
+	bottom: 0px;
+	right: 0px;
+}
+#linkedinTXTlink{
+	color: yellow;
+}
+
+#mainBody{
+	margin: auto;
+}
+
+#projectlistings{
+	background-color: rgba(0,0,0,0.8);
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+#projectlistings p {
+	font-size: 20px;
+	font-family: "Helvetica";
+	color: #FFFF7d;
+}
+
+#middlebox{
+	text-align: center;
+	padding-top: 10%;
+}
+#middlebox>p{
+	font-size: 60px;
+	font-family: "Helvetica";
+	color: #FFFF7d;
+}
