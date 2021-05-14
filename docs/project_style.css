@@ -1,5 +1,6 @@
 :root {
     --colorLight: #f1f1f1;
+    --colorLightBack: #f1f1f1E8;
     --colorMed: #21209c;
     --colorDark: #23120b;
 }
@@ -60,7 +61,8 @@ body{
 }
 
 #projectlistings{
-	background-color: rgba(0,0,0,0.8);
+	background-color: var(--colorLightBack);
+
 	margin: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -70,7 +72,10 @@ body{
 #projectlistings p {
 	font-size: 20px;
 	font-family: "Helvetica";
-	color: #FFFF7d;
+	color: var(--colorDark);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
 }
 
 #middlebox{
@@ -81,4 +86,33 @@ body{
 	font-size: 60px;
 	font-family: "Helvetica";
 	color: #FFFF7d;
+}
+
+/* Collapsible button formatting */
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: var(--colorMed);
+  color: var(--colorLight);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+  color: var(--colorDark);
+}
+
+.content {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
 }
