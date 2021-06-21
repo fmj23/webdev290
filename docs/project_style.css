@@ -36,7 +36,7 @@ body{
 	top: 10px;
     background-color: var(--colorMed);
 }
-#homeButton{
+#homeButton, #backButton{
 	background-color:rgba(100,100,100,0);
 	border-color: var(--colorMed);
 	color: var(--colorLight);

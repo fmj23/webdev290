@@ -7,6 +7,13 @@ function bindButtons(){
 	});	
 }
 
+function bindButtons(){
+	document.getElementById("backButton").addEventListener('click',function(event){
+		console.log("Clicked for back");
+		window.location.href = "projects.html";
+	});	
+}
+
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
